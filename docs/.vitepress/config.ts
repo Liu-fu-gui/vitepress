@@ -52,11 +52,11 @@ export default defineConfig({
         items: [
           {
             text: "阶段回顾与综合架构准备",
-            link: "/md/1.阶段回顾与综合架构准备.md"
+            link: "../md/1.阶段回顾与综合架构准备.md"
           },
           {
             text: "docker快速搭建一个静态网站",
-            link: "/md/2.docker快速搭建一个静态网站.md",
+            link: "../md/2.docker快速搭建一个静态网站.md",
           },
         ],
       },
@@ -69,7 +69,7 @@ export default defineConfig({
           },
           {
             text: "用dockerfile进行云部署",
-            link: "/md/docker.md",
+            link: "../md/docker.md",
           },
           
         ],
