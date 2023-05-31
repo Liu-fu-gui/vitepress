@@ -13,13 +13,13 @@ export default defineConfig({
       { text: "免费gpt账号", link: "../md/user.md" },
       { text: "技术篇文档", link: "../md/1.阶段回顾与综合架构准备.md" },
       {
-        text: "Drop Menu",
+        text: "阶段回顾",
         items: [
           {
-            text: "Item A",
+            text: "阶段回归架构准备",
             items: [
-              { text: "Item A1", link: "/item-A1" },
-              { text: "Item A2", link: "/item-A2" },
+              { text: "架构准备", link: "../md/1.阶段回顾与综合架构准备.md" },
+              { text: "dockerfile部署", link: "../md/2.docker快速搭建一个静态网站.md" },
             ],
           },
           {
@@ -58,6 +58,10 @@ export default defineConfig({
             text: "docker快速搭建一个静态网站",
             link: "../md/2.docker快速搭建一个静态网站.md",
           },
+          {
+            text: "git使用",
+            link: "../md/git使用.md",
+          },
         ],
       },
       {
@@ -80,7 +84,7 @@ export default defineConfig({
         items: [
           {
             text: "免费账号",
-            link: "../md/免费账号.md",
+            link: "../md/user.md",
           },
           
           
