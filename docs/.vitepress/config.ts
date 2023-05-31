@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: "vitepress脚本一键部署", link: "../md/初始化配置vitepress.md" },
       { text: "免费gpt账号", link: "../md/user.md" },
-      { text: "技术篇文档", link: "../md/1.阶段回顾与综合架构准备.md" },
+      { text: "免费api", link: "../md/api.md" },
       {
         text: "阶段回顾",
         items: [
