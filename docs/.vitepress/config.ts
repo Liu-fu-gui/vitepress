@@ -85,10 +85,17 @@ export default defineConfig({
           {
             text: "免费账号",
             link: "../md/user.md",
-          },
-          
-          
+          }, 
+          {
+            text: "免费api",
+            link: "../md/api.md",
+          }, 
+          {
+            text: "python脚本余额查询",
+            link: "../md/pythonapi.md",
+          }, 
         ],
+        
       },
     ],
   },

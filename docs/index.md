@@ -23,6 +23,9 @@ hero:
     - theme: alt
       text: 前端导航
       link: /nav/
+    - theme: alt
+      text: pythonapi脚本
+      link: /md/pythonapi
 
 features:
   - icon: ⚡️
