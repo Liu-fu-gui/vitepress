@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "2023.5.30更新！"
+  name: "2023.6.2更新！"
   text: "chatgpt x openaikey 免费分享!!!"
   tagline: 有需要补充的v，kj8888r
   title: 小刘
@@ -17,6 +17,9 @@ hero:
     - theme: alt
       text: 免费账号
       link: /md/user
+    - theme: alt
+      text: 免费api
+      link: /md/api
     - theme: alt
       text: 前端导航
       link: /nav/
