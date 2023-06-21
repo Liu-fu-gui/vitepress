@@ -10,8 +10,6 @@ export default defineConfig({
     
     nav: [
       { text: "vitepress脚本一键部署", link: "../md/初始化配置vitepress.md" },
-      { text: "免费gpt账号", link: "../md/user.md" },
-      { text: "免费api", link: "../md/api.md" },
       { text: "chatgpt充值付款流程", link: "../md/chatgpt付款流程.md" },
       {
         text: "阶段回顾",
@@ -83,14 +81,7 @@ export default defineConfig({
       {
         text: "免费ai项目",
         items: [
-          {
-            text: "免费账号",
-            link: "../md/user.md",
-          }, 
-          {
-            text: "免费api",
-            link: "../md/api.md",
-          }, 
+
           {
             text: "python脚本余额查询",
             link: "../md/pythonapi.md",
