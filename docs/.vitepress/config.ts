@@ -58,6 +58,10 @@ export default defineConfig({
             link: "../md/2.docker快速搭建一个静态网站.md",
           },
           {
+            text: "FastDfs分布式文件系统",
+            link: "../md/vitepress/FastDFS.md",
+          },
+          {
             text: "git使用",
             link: "../md/git使用.md",
           },

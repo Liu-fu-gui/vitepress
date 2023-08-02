@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "2023.6.16笔记更新！！！"
+  name: "2023.8.2笔记更新！！！"
   text: "gpt SD Mj 免费分享!!!"
   tagline: 有需要补充的v，kj8888r
   title: 小刘
