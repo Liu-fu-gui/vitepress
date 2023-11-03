@@ -1,6 +1,13 @@
+---
+prev: 
+  text: '用dockerfile进行云部署'
+  link: 'md/vitepress/docker.md'
+next:
+  text: 'vscode-git-443'
+  link: 'md/error/vscode-git.md'
+---
+
 # vitepress趣玩系列——首页样式优化
-
-
 
 讲一下我看到的比较有意思的vitepress玩法
 

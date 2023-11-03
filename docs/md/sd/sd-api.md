@@ -1,7 +1,10 @@
 ---
-title: Hello World
-lastUpdated: '2023.11.12' # 文章最后修改时间
-sidebar: auto
+prev: 
+  text:  'vscode-git-443'
+  link: 'md/error/vscode-git.md'
+next:
+  text: 'sd-github-api'
+  link: 'md/sd/sd-github-api.md'
 ---
 
 # stable diffusion API 调用，超级详细代码示例和说明

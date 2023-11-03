@@ -67,7 +67,7 @@ export default defineConfig({
           },
           {
             text: "git使用",
-            link: "md/cloud-service/static.md",
+            link: "md/cloud-service/git-github.md",
           },
         ],
       },

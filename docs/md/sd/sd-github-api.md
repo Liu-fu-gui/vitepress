@@ -1,4 +1,8 @@
-
+---
+prev: 
+  text: '上一页'
+  link: 'md/error/vscode-git.md'
+---
 
 ## 官方文档：
 https://github.com/Mikubill/sd-webui-controlnet/wiki/API#integrating-sdapiv12img

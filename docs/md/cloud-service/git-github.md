@@ -1,3 +1,11 @@
+---
+prev: 
+  text:  'FastDfs分布式文件系统'
+  link: 'md/cloud-service/FastDFS.md'
+next:
+  text: '初始化配置vitepress'
+  link: 'md/vitepress/initialize.md'
+---
 要更新GitHub上的文件，您需要执行以下步骤：
 
 1. 确保您已经在本地对文件进行了更改并进行了适当的保存。

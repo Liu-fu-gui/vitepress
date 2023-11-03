@@ -1,3 +1,11 @@
+---
+prev: 
+  text: '初始化配置vitepress'
+  link: 'md/vitepress/initialize.md'
+next:
+  text: 'vitepress页面美化'
+  link: 'md/vitepress/beautify.md'
+---
 npm run build:docs  本地构建
 
 1. 在VitePress项目的根目录中创建一个名为 `Dockerfile` 的文件。

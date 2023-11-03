@@ -1,3 +1,11 @@
+---
+prev: 
+  text:  'docker快速搭建一个静态网站'
+  link: 'md/cloud-service/docker.md'
+next:
+  text: 'git使用'
+  link: 'md/cloud-service/git-github.md'
+---
 # linux下安装FastDFS
 
 ## 简介

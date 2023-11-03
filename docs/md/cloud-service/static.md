@@ -1,3 +1,12 @@
+---
+prev: 
+  text:  '阶段回顾与综合架构准备'
+  link: 'md/cloud-service/architecture.md'
+next:
+  text: 'FastDfs分布式文件系统'
+  link: 'md/cloud-service/FastDFS.md'
+---
+
 # 2.docker快速搭建一个静态网站
 
 ## 1.创建一个文件夹，mkdir mytext 里面放脚本和源代码

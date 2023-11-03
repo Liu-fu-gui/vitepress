@@ -1,3 +1,11 @@
+---
+prev: 
+  text:  '阶段回顾与综合架构准备'
+  link: 'md/cloud-service/architecture.md'
+next:
+  text: 'docker快速搭建一个静态网站'
+  link: 'md/cloud-service/static.md'
+---
 # 1-阶段回顾与综合架构准备
 
 # 1. 运维基操之修仙之路
