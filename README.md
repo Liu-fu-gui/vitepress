@@ -2,7 +2,7 @@
 node 18.18.0     npm 10.2.2
 
 更新为淘宝镜像
-npm config set registry http://registry.npmmirror.com
+'''npm config set registry http://registry.npmmirror.com'''
 
 
 快速上手
