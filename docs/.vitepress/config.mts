@@ -2,26 +2,25 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'xiaoliu',
+  lastUpdated: true,
   //左边界面
   themeConfig: {
     search: {
-      provider: 'local', // 注意冒号应为单冒号
+      provider: 'local', // 设置本地搜索
+      
     },
     siteTitle: "小刘,欢迎回家！",
     logo: "https://kmfuture-py.oss-cn-hangzhou.aliyuncs.com/logo1.png",
-    
-    
     nav: [
-      { text: "vitepress脚本一键部署", link: "../md/初始化配置vitepress.md" },
-      { text: "chatgpt充值付款流程", link: "../md/chatgpt付款流程.md" },
+      { text: "vitepress脚本一键部署", link: "md/vitepress/docker.md" },
       {
         text: "阶段回顾",
         items: [
           {
             text: "阶段回归架构准备",
             items: [
-              { text: "架构准备", link: "../md/1.阶段回顾与综合架构准备.md" },
-              { text: "dockerfile部署", link: "../md/2.docker快速搭建一个静态网站.md" },
+              { text: "架构准备", link: "md/cloud-service/architecture.md" },
+              { text: "dockerfile部署", link: "md/cloud-service/static.md" },
             ],
             
           },
@@ -37,7 +36,8 @@ export default defineConfig({
     ],
     // 配置社交链接socialLinks
     socialLinks: [
-      { icon: "github", link: "https://github.com/Liu-wei-tao" },
+      
+      { icon: "github", link: "https://github.com/Liu-fu-gui" },
       { icon: "twitter", link: "..." },
       // 您还可以通过传递 SVG 字符串来添加自定义图标：
       {
@@ -50,22 +50,24 @@ export default defineConfig({
     
     //侧边栏
     sidebar: [
+      
       {
-        text: "阶段回顾",
+        text: "云服务器基础架构",
+        
         collapsed: true,
         items: [
           {
-            text: "阶段回顾与综合架构准备",link: "../md/1.阶段回顾与综合架构准备.md"
+            text: "阶段回顾与综合架构准备",link: "md/cloud-service/architecture.md"
           },
           {
-            text: "docker快速搭建一个静态网站",link: "../md/2.docker快速搭建一个静态网站.md",
+            text: "docker快速搭建一个静态网站",link: "md/cloud-service/static.md",
           },
           {
-            text: "FastDfs分布式文件系统",link: "../md/vitepress/FastDFS.md",
+            text: "FastDfs分布式文件系统",link: "md/cloud-service/FastDFS.md",
           },
           {
             text: "git使用",
-            link: "../md/git使用.md",
+            link: "md/cloud-service/static.md",
           },
         ],
       },
@@ -75,32 +77,45 @@ export default defineConfig({
         items: [
           {
             text: "初始化配置vitpress",
-            link: "../md/初始化配置vitepress.md",
+            link: "md/vitepress/initialize.md",
           },
           {
             text: "用dockerfile进行云部署",
-            link: "../md/docker.md",
+            link: "md/vitepress/docker.md",
+          },
+          {
+            text: "vitepress页面美化",
+            link: "md/vitepress/beautify.md",
           },
           
         ],
       },
 
       {
-        text: "免费ai项目",
+        text: "error报错",
         collapsed: true,
         items: [
 
           {
-            text: "python脚本余额查询",
-            link: "../md/pythonapi.md",
-          }, 
-          {
-            text: "chatgpt充值付款流程",
-            link: "../md/chatgpt付款流程.md",
+            text: "vscode-git-443",
+            link: "md/error/vscode-git.md",
           }, 
         ],
         
       },
+      {
+        text: "sd-api",
+        collapsed: true,
+        items: [
+          {
+            text: "sd-api",link: "md/sd/sd-api.md"
+          },
+          {
+            text: "sd-github-api",link: "md/sd/sd-github-api.md",
+          },
+        ],
+      },
     ],
   }, 
 });
+  

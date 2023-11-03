@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "2023.11.3笔记更新！！！"
-  text: "gpt SD Mj 免费分享!!!"
-  tagline: 有需要补充的v，kj8888r123
+  text: "文档整理"
+  tagline: 有问题欢迎指正，kj8888r
   title: 小刘
   image:
     src: https://kmfuture-py.oss-cn-hangzhou.aliyuncs.com/AI1.png
@@ -13,13 +13,14 @@ hero:
   actions:
     - theme: brand
       text: 技术篇文档
-      link: /md/1.阶段回顾与综合架构准备
+      link: /md/cloud-service/architecture
     - theme: alt
-      text: 前端导航(半成品)
-      link: /md/Navigation
-    - theme: alt
-      text: pythonapi脚本
-      link: /md/pythonapi
+      text: error报错
+      link: /md/error/vscode-git.md
+    - theme: brand
+      text: SD
+      link: /md/sd/sd-api.md
+      
 
 features:
   - icon: ⚡️

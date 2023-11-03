@@ -4,35 +4,30 @@
 2. 使用`git add`命令将更改的文件添加到暂存区。例如，如果您修改了一个名为`index.html`的文件，可以运行以下命令：
 
 ```
-csharpCopy code
 git add index.html
 ```
 
 如果您修改了多个文件，可以使用通配符 `*` 添加所有更改的文件：
 
 ```
-csharpCopy code
 git add *
 ```
 
 1. 确认已将更改添加到暂存区后，使用`git commit`命令提交更改并添加一个提交消息。提交消息应简洁明了，准确描述您进行的更改。例如：
 
 ```
-sqlCopy code
 git commit -m "Update index.html file"
 ```
 
 1. 最后，使用`git push`命令将更改推送到GitHub仓库。该命令的语法如下：
 
 ```
-perlCopy code
 git push origin <branch-name>
 ```
 
 将`<branch-name>`替换为您要推送到的分支名称。通常，`main`分支是默认的主分支。
 
 ```
-cssCopy code
 git push origin main
 ```
 
@@ -47,7 +42,6 @@ git push origin main
 要查看本地分支是否有新的更改或提交，可以使用以下命令：
 
 ```
-luaCopy code
 git status
 ```
 
