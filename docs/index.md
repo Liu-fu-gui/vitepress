@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "2023.11.3笔记更新！！！"
   text: "gpt SD Mj 免费分享!!!"
-  tagline: 有需要补充的v，kj8888r
+  tagline: 有需要补充的v，kj8888r1111
   title: 小刘
   image:
     src: https://kmfuture-py.oss-cn-hangzhou.aliyuncs.com/AI1.png
