@@ -8,7 +8,7 @@ export default defineConfig({
       provider: 'local', // 注意冒号应为单冒号
     },
     siteTitle: "小刘,欢迎回家！",
-    logo: "https://cdn.staticaly.com/gh/Liu-wei-tao/myimg@master/文档网站所需要的图片/logo1.4f9rt58nd5s0.webp",
+    logo: "https://kmfuture-py.oss-cn-hangzhou.aliyuncs.com/logo1.png",
     
     
     nav: [

@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "2023.8.2笔记更新！！！"
+  name: "2023.11.3笔记更新！！！"
   text: "gpt SD Mj 免费分享!!!"
   tagline: 有需要补充的v，kj8888r
   title: 小刘
   image:
-    src: https://cdn.staticaly.com/gh/Liu-wei-tao/myimg@master/文档网站所需要的图片/AI1.678qw7whgpg0.webp
+    src: https://kmfuture-py.oss-cn-hangzhou.aliyuncs.com/AI1.png
     alt: VitePress
   actions:
     - theme: brand
@@ -25,17 +25,17 @@ features:
   - icon: ⚡️
     title: chatgpt网址，记得开科学
     details: ai.com
-    link: http://ai.com/
+    link: https://chat.openai.com/
   
   - icon: 🖖
     title: 网页版ai，无需科学上网，访问密码abc，api自取
-    details: https://chatgpt.pyliu.top/#/
+    details: chatgpt
     link: https://chatgpt.pyliu.top/#/
 
   
   - icon: 🛠️
     title: 接码网站，开科学
-    details: https://sms-activate.org/feedbackTest 
+    details: sms
     link: https://sms-activate.org/feedbackTest
 ---
 <!-- 🤳

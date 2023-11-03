@@ -63,14 +63,12 @@ git status
 2. 初始化本地仓库：如果你的文件夹还没有初始化为Git仓库，可以使用以下命令进行初始化：
 
 ```
-csharpCopy code
 git init
 ```
 
 1. 添加文件到暂存区：使用以下命令将要上传的文件添加到Git的暂存区：
 
 ```
-csharpCopy code
 git add 文件名
 ```
 
@@ -79,7 +77,6 @@ git add 文件名
 1. 提交更改：使用以下命令提交你的更改到本地仓库：
 
 ```
-sqlCopy code
 git commit -m "提交描述"
 ```
 
@@ -88,7 +85,6 @@ git commit -m "提交描述"
 1. 添加远程仓库：将你的GitHub仓库链接添加为远程仓库，使用以下命令：
 
 ```
-csharpCopy code
 git remote add origin 远程仓库链接
 ```
 
@@ -97,16 +93,12 @@ git remote add origin 远程仓库链接
 1. 推送更改到远程仓库：使用以下命令将你的本地更改推送到远程仓库：
 
 ```
-perlCopy code
 git push -u origin 分支名称
 ```
 
 将`分支名称`替换为你想要推送的分支的名称，通常是`main`或`master`。
 
 这样，你的本地文件就会被上传到GitHub仓库中。
-
-
-
 
 
 
@@ -118,14 +110,12 @@ git push -u origin 分支名称
 1. 确保您拥有正确的SSH密钥。您可以通过运行以下命令来检查是否存在SSH密钥：
 
    ```
-   bashCopy code
    ls -al ~/.ssh
    ```
 
    如果没有任何密钥，请生成一个新的SSH密钥。您可以使用以下命令生成密钥：
 
    ```
-   bashCopy code
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ```
 
@@ -136,7 +126,6 @@ git push -u origin 分支名称
 3. 验证您的SSH连接是否正常工作。您可以使用以下命令进行测试：
 
    ```
-   bashCopy code
    ssh -T git@github.com
    ```
 
@@ -145,7 +134,6 @@ git push -u origin 分支名称
 4. 尝试重新克隆GitHub仓库。
 
    ```
-   bashCopy code
    git clone git@github.com:Liu-wei-tao/vitepress.git
    ```
 

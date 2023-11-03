@@ -1,22 +1,3 @@
-## 1. 快速上手
-
-使用git bash运行sh脚本
-
-![image-20230531163503933](https://cdn.staticaly.com/gh/Liu-wei-tao/myimg@master/文档网站所需要的图片/image-20230531163503933.2wbmpbcwugy0.webp)
-
-## 执行前
-
-![image-20230531163340110](https://cdn.staticaly.com/gh/Liu-wei-tao/myimg@master/文档网站所需要的图片/image-20230531163340110.hgifzijndy0.webp)
-
-## 执行中
-
-![image-20230531163526527](https://cdn.staticaly.com/gh/Liu-wei-tao/myimg@master/文档网站所需要的图片/image-20230531163526527.6e24apvkdsg0.webp)
-
-
-## 执行后
-
-![image-20230531202046381](https://cdn.staticaly.com/gh/Liu-wei-tao/myimg@master/文档网站所需要的图片/image-20230531202046381.rwjo3bb2ij4.webp)
-
 ## 脚本代码
 
 ```sh
