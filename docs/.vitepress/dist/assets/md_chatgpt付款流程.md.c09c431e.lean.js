@@ -1,1 +1,0 @@
-import{_ as a,o as t,c,O as E}from"./chunks/framework.62020867.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"md/chatgpt付款流程.md","filePath":"md/chatgpt付款流程.md"}'),e={name:"md/chatgpt付款流程.md"},i=E("",9),s=[i];function m(d,p,o,r,b,h){return t(),c("div",null,s)}const n=a(e,[["render",m]]);export{f as __pageData,n as default};
